@@ -1,0 +1,25 @@
+name: geocode_lab
+description: "مختبر عناوين Google Geocoding — مقارنة نماذج عرض أسماء المناطق."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.10.0
+  dio: ^5.7.0
+  shared_preferences: ^2.3.0
+  flutter_map: ^8.0.0
+  latlong2: ^0.9.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
